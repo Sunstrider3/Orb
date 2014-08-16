@@ -2,7 +2,7 @@
 using System.Collections;
 
 [RequireComponent (typeof (CharacterController))]
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float rotationSpeed = 450;
     public float walkSpeed = 5;
